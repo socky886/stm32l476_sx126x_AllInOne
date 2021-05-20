@@ -1,0 +1,750 @@
+    //-----board----------------
+SX126xIoInit();
+PinName is 19,PinModes is 0
+PinName is 20,PinModes is 0
+//--------------------------------------------------------------------
+RadioInit
+{
+    //------sx126x---------------
+    SX126xInit();
+    //-----board----------------
+SX126xReset();
+    //-----board----------------
+SX126xIoIrqInit();
+    //-----board----------------
+SX126xWakeup();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xSetOperatingMode();
+    //------sx126x---------------
+    SX126xSetStandby();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xSetOperatingMode();
+    //-----board----------------
+SX126xIoTcxoInit();
+    //-----board----------------
+SX126xIoRfSwitchInit();
+    //------sx126x---------------
+    SX126xSetDio2AsRfSwitchCtrl();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xSetOperatingMode();
+    //------sx126x---------------
+    SX126xSetStandby();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xSetOperatingMode();
+    //------sx126x---------------
+    SX126xSetRegulatorMode();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetBufferBaseAddress();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetTxParams();
+    //-----board----------------
+SX126xGetDeviceId();
+    //-----board----------------
+SX126xReadRegister();
+    //-----board----------------
+SX126xReadRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetPaConfig();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetDioIrqParams();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xReadRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xReadRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+
+}
+
+//--------------------------------------------------------------------
+RadioSetChannel
+{
+    //------sx126x---------------
+    SX126xSetRfFrequency();
+    //------sx126x---------------
+    SX126xCalibrateImage();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xConvertFreqInHzToPllStep();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+
+}
+
+//--------------------------------------------------------------------
+RadioSetTxConfig
+{
+//--------------------------------------------------------------------
+RadioStandby
+{
+    //------sx126x---------------
+    SX126xSetStandby();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xSetOperatingMode();
+//--------------------------------------------------------------------
+RadioSetModem
+{
+    //------sx126x---------------
+    SX126xSetPacketType();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+
+}
+    //------sx126x---------------
+    SX126xSetModulationParams();
+    //------sx126x---------------
+    SX126xConvertFreqInHzToPllStep();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetPacketParams();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetSyncWord();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetWhiteningSeed();
+    //------sx126x---------------
+    SX126xGetPacketType();
+    //-----board----------------
+SX126xReadRegister();
+    //-----board----------------
+SX126xReadRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xReadRegister();
+    //-----board----------------
+SX126xReadRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xSetRfTxPower();
+    //------sx126x---------------
+    SX126xSetTxParams();
+    //-----board----------------
+SX126xGetDeviceId();
+    //-----board----------------
+SX126xReadRegister();
+    //-----board----------------
+SX126xReadRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetPaConfig();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+
+}
+//--------------------------------------------------------------------
+RadioSetRxConfig
+{
+    //------sx126x---------------
+    SX126xSetStopRxTimerOnPreambleDetect();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+//--------------------------------------------------------------------
+RadioStandby
+{
+    //------sx126x---------------
+    SX126xSetStandby();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xSetOperatingMode();
+//--------------------------------------------------------------------
+RadioSetModem
+{
+    //------sx126x---------------
+    SX126xSetPacketType();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+
+}
+    //------sx126x---------------
+    SX126xSetModulationParams();
+    //------sx126x---------------
+    SX126xConvertFreqInHzToPllStep();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetPacketParams();
+    //------sx126x---------------
+    SX126xSetCrcSeed();
+    //------sx126x---------------
+    SX126xGetPacketType();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetCrcPolynomial();
+    //------sx126x---------------
+    SX126xGetPacketType();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetSyncWord();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetWhiteningSeed();
+    //------sx126x---------------
+    SX126xGetPacketType();
+    //-----board----------------
+SX126xReadRegister();
+    //-----board----------------
+SX126xReadRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+
+}
+
+//=========================================
+
+    //------sx126x---------------
+    SX126xGetIrqStatus();
+    //-----board----------------
+SX126xReadCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xClearIrqStatus();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+//--------------------------------------------------------------------
+RadioRx
+{
+    //------sx126x---------------
+    SX126xSetDioIrqParams();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xSetRx();
+    //-----board----------------
+SX126xSetOperatingMode();
+    //-----board----------------
+SX126xWriteRegister();
+    //-----board----------------
+SX126xWriteRegisters();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWriteCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //------sx126x---------------
+    SX126xGetIrqStatus();
+    //-----board----------------
+SX126xReadCommand();
+    //------sx126x---------------
+    SX126xCheckDeviceReady();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xGetOperatingMode();
+    //-----board----------------
+SX126xWaitOnBusy();
+    //-----board----------------
+SX126xWaitOnBusy();
